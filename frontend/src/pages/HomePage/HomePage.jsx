@@ -5,6 +5,10 @@ const HomePage = () => {
   return (
     <div className="max-w-6xl mx-auto px-2 xl:px-0">
       <HomePost />
+      <HomePost />
+      <HomePost />
+      <HomePost />
+      <HomePost />
     </div>
   );
 };
