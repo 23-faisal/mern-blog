@@ -22,14 +22,14 @@ const Navbar = () => {
             placeholder="Search a post"
             className="w-1/2 md:w-full   px-2 py-1 rounded-md outline-none border border-zinc-200	 focus:border-slate-700 text-slate-700"
           />
-          <BsSearch className="h-6 w-6 cursor-pointer text-slate-500 hover:text-slate-700 transition ease-in duration-75" />
+          <BsSearch className=" h-4 w-4 sm:h-6 sm:w-6 cursor-pointer text-slate-500 hover:text-slate-700 transition ease-in duration-75" />
         </div>
         <div className="flex items-center gap-2 md:gap-4">
           {user ? (
             <button>
               <Link
                 to="/write"
-                className="text-lg font-semibold text-slate-700 "
+                className="sm:text-lg sm:font-semibold text-slate-700 "
               >
                 Write
               </Link>
@@ -37,7 +37,7 @@ const Navbar = () => {
           ) : (
             <button>
               <Link
-                className="text-lg font-semibold text-slate-700 "
+                className="sm:text-lg sm:font-semibold text-slate-700 "
                 to="/login"
               >
                 Login
@@ -49,7 +49,7 @@ const Navbar = () => {
             <button>
               <Link
                 to="/profile"
-                className="  text-lg font-semibold text-slate-700 "
+                className="  sm:text-lg sm:font-semibold text-slate-700 "
               >
                 Write
               </Link>
@@ -57,7 +57,7 @@ const Navbar = () => {
           ) : (
             <button>
               <Link
-                className="text-lg font-semibold text-slate-700 "
+                className="sm:text-lg sm:font-semibold text-slate-700 "
                 to="/register"
               >
                 Register
