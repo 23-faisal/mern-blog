@@ -50,9 +50,6 @@ const LoginPage = () => {
             </form>
 
             <div className="flex flex-col sm:flex-row justify-center sm:justify-between items-center ">
-              <p className="text-sm sm:text-md   mt-2 sm:mt-4 text-red-500 text-right ">
-                Forgot Password
-              </p>
               <p className="text-sm  mt-2 sm:mt-4 text-slate-700 text-center ">
                 Don't have an account?
                 <span
@@ -61,6 +58,9 @@ const LoginPage = () => {
                 >
                   Register
                 </span>{" "}
+              </p>
+              <p className="text-sm sm:text-md   mt-2 sm:mt-4 text-red-500 text-right ">
+                Forgot Password
               </p>
             </div>
           </div>

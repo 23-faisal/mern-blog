@@ -4,7 +4,7 @@ import { BsSearch } from "react-icons/bs";
 
 const Navbar = () => {
   const navigate = useNavigate();
-  const user = false;
+  const user = true;
   return (
     <div className=" w-full shadow-sm">
       <nav className=" max-w-6xl mx-auto  flex items-center justify-between px-2 xl:px-0 py-4  ">
@@ -51,7 +51,7 @@ const Navbar = () => {
                 to="/profile"
                 className="  sm:text-lg sm:font-semibold text-slate-700 "
               >
-                Write
+                Profile
               </Link>
             </button>
           ) : (

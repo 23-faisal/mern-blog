@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { ImCross } from "react-icons/im";
 
-const WritePage = () => {
+const EditPostPage = () => {
   const [category, setCategory] = useState("");
   const [categories, setCategories] = useState([]);
 
@@ -22,7 +22,7 @@ const WritePage = () => {
     <div className="max-w-6xl mx-auto my-8 px-2 xl:px-0">
       <div>
         <h1 className="font-bold text-center text-2xl mb-8 text-slate-700 ">
-          Create a Post
+          Edit Post
         </h1>
         <form action="">
           <label className="text-xl font-bold text-slate-700 " htmlFor="">
@@ -105,7 +105,7 @@ const WritePage = () => {
             {/* Submit */}
 
             <button className="font-semibold px-0 py-3 rounded-md  text-white bg-slate-800 hover:bg-slate-900 active:bg-slate-950 ">
-              Submit
+              Update Post
             </button>
 
             {/*  */}
@@ -116,4 +116,4 @@ const WritePage = () => {
   );
 };
 
-export default WritePage;
+export default EditPostPage;
